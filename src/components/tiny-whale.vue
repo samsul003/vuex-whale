@@ -6,8 +6,8 @@
     Our <b>Blue-Whale</b> has grown <b>{{ this.$store.state.growth }}</b> feet long!
     <br>
     <div>
-      <button class="btn" @click="eatsKrill">Eats Krill</button>
       <button class="btn" @click="drinksMilk">Drinks Milk</button>
+      <button class="btn" @click="eatsKrill">Eats Krill</button>
       <button class="btn" @click="hungerStrike">Hunger Strikes</button>
       <button class="btn" @click="resetGrowth">Reset Growth</button>
     </div>
@@ -27,7 +27,7 @@
         this.$store.dispatch('decrement')
       },
       resetGrowth() {
-        this.$store.dispatch('reset', 23)
+        this.$store.dispatch('reset', 0)
       },
     }
   }

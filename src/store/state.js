@@ -1,5 +1,5 @@
 const state = {
-  growth: 23
+  growth: 0
 }
 
 export default state
