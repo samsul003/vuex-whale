@@ -1,7 +1,7 @@
 <template>
   <div class="whale">
     <img v-bind:style="{'width': this.$store.state.growth + 'px'}"
-         src="@/../static/images/tiny-whale.png">
+         src="static/images/tiny-whale.png">
     <br>
     Our <b>Blue-Whale</b> has grown <b>{{ this.$store.state.growth }}</b> feet long!
     <br>
